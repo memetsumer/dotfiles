@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    use {'edluffy/hologram.nvim'}
     use 'windwp/nvim-ts-autotag'
     use {
         "windwp/nvim-autopairs",
