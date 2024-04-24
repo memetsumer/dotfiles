@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
     use "tpope/vim-fugitive"
 
     use "jose-elias-alvarez/null-ls.nvim"
+    -- use { 'mhartington/formatter.nvim' }
     use "MunifTanjim/prettier.nvim"
 
     -- LSP Zero
