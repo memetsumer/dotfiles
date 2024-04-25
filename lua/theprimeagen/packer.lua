@@ -37,6 +37,10 @@ return require('packer').startup(function(use)
     -- use { 'mhartington/formatter.nvim' }
     use "MunifTanjim/prettier.nvim"
 
+    -- jsx comment support
+    use  'JoosepAlviste/nvim-ts-context-commentstring'
+
+
     -- LSP Zero
     use {
         'VonHeikemen/lsp-zero.nvim',
